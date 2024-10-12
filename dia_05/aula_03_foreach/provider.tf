@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "descomplicando-terraform-william"
-    key    = "aula_conditional"
+    key    = "aula_for_each"
     region = "us-east-1"
   }
   required_providers {
